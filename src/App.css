@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.logo {
+  width: 60vw;
+  max-width: 350px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -18,8 +23,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+  margin-top: 20vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .App-header {
+    margin-top: 100px;
+  }
 }
 
 .App-link {

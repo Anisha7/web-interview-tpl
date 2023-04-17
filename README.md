@@ -1,6 +1,7 @@
 # Welcome to Gametime!
 
-What you are looking at is the exact output of `npx create-react-app web-interview-tpl --template redux` (including all the comments)
+This is a completed exercise for the Gametime coding challenge.
+We started with the exact output of `npx create-react-app web-interview-tpl --template redux` (including all the comments)
 
 This repo is here to help candidates jump right into the coding challenge without having to worry about setting up environment.
 
@@ -9,6 +10,11 @@ This repo is here to help candidates jump right into the coding challenge withou
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+This will install all necessary dependencies in order to start the app. \
+Please run this before using `npm start`.
 
 ### `npm start`
 
